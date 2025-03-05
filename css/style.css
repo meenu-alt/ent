@@ -351,7 +351,7 @@ select.form-control {
 /*============ Container ===================*/
 section {
   position: relative;
-  padding: 130px 0px;
+  padding: 45px 0px;
 }
 
 .container {
@@ -2823,6 +2823,7 @@ footer#pq-footer:before {
 footer#pq-footer .pq-footer-style-1 {
   background: var(--primary-dark-color);
   color: var(--white-color);
+  /* background:#F7FDFA ; */
 }
 
 footer#pq-footer .pq-footer-top {
@@ -3046,7 +3047,7 @@ Section Title
 ==================================================*/
 .pq-section.pq-style-1.text-center {
   padding: 0 15em;
-  margin-bottom: 60px;
+  margin: 40px;
 }
 
 .pq-section.pq-style-1 .pq-section-sub-title {
@@ -3135,6 +3136,7 @@ OWL Carousel
   text-indent: inherit;
   text-align: center;
   cursor: pointer;
+  display: none !important;
 }
 
 .owl-carousel .owl-dots .owl-dot {
@@ -7216,7 +7218,7 @@ Custom Css
 }
 
 .pq-home2-about {
-  padding-top: 50px !important;
+  padding-top: 75px !important;
   padding-bottom: 50px;
 }
 
