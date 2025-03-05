@@ -4,7 +4,7 @@
 [ Moz Selection ]
 ==================================================*/
 :root {
-  --primary-color: #2490eb;
+  --primary-color: #4C906F;
   --primary-dark-color: #14457b;
   --dark-color: #18100f;
   --secondary-color: #666666;
@@ -7091,7 +7091,7 @@ rev-slider
 #rev_slider_25_1_wrapper .hesperiden .tp-bullet.selected,
 #rev_slider_29_1_wrapper .hesperiden .tp-bullet.rs-touchhover,
 #rev_slider_29_1_wrapper .hesperiden .tp-bullet.selected/ {
-  background: #2490eb;
+  background: #4C906F;
 }
 
 
