@@ -7956,3 +7956,14 @@ Custom Css
 .pq-footer-top p{
   color: #000000;
 }
+
+i.fas.fa-quote-left {
+  color: var(--primary-color);
+  font-size: 74px;
+  line-height: 72px;
+  position: absolute;
+  left: 14px;
+  top: 7px;
+  z-index: 1;
+  opacity: 0.1;
+}
