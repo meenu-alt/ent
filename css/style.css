@@ -5224,7 +5224,7 @@ Testimonial
 }
 
 .owl-carousel .owl-nav button.owl-prev {
-  border-radius: 3px;
+  border-radius: 50%;
   outline: none;
   text-align: center;
   text-indent: inherit;
@@ -5240,7 +5240,7 @@ Testimonial
 }
 
 .owl-carousel .owl-nav button.owl-next {
-  border-radius: 3px;
+  border-radius: 50%;
   outline: none;
   text-align: center;
   text-indent: inherit;
