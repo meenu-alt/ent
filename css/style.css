@@ -2725,7 +2725,7 @@ Footer Subscribe
   display: inline-block;
   width: 100%;
   position: relative;
-  margin-top: -80px;
+  /* margin-top: -80px; */
   z-index: 10;
 }
 
@@ -2733,7 +2733,7 @@ Footer Subscribe
   background: var(--primary-color);
   color: var(--white-color);
   padding: 45px;
-  border-radius: 3px;
+  border-radius: 55px;
 }
 
 .pq-subscribe-block {
@@ -7918,4 +7918,7 @@ Custom Css
 
 .place .py-130{
   padding: 130px 0;
+}
+.pq-footer-top{
+  padding: 50px 100px 0 100px !important;
 }
