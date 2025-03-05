@@ -2776,11 +2776,10 @@ Footer Subscribe
 }
 
 .pq-subscribe-from input[type="submit"] {
-  background: var(--white-color);
-  color: var(--dark-color);
+  background: #4ca98c;
+  color: #ffffff;
   margin-left: 30px;
 }
-
 .pq-subscribe-from input[type="submit"]:hover {
   background: var(--dark-color);
   color: var(--white-color);
@@ -2821,9 +2820,9 @@ footer#pq-footer:before {
 }
 
 footer#pq-footer .pq-footer-style-1 {
-  background: var(--primary-dark-color);
+  /* background: var(--primary-dark-color); */
   color: var(--white-color);
-  /* background:#F7FDFA ; */
+  background:#F7FDFA ;
 }
 
 footer#pq-footer .pq-footer-top {
@@ -2879,7 +2878,8 @@ footer#pq-footer .pq-footer-style-1 .pq-service li a:hover {
 }
 
 footer#pq-footer .pq-footer-style-1 ul li a:hover {
-  color: var(--primary-color);
+  color: white;
+  /* color: var(--primary-color); */
 }
 
 footer#pq-footer .pq-footer-style-1 ul.menu li a,
@@ -5034,7 +5034,7 @@ Testimonial
 ==================================================*/
 
 .pq-testimonial-box.pq-style-1 {
-  background: var(--grey-color);
+  background: #e5f6ec;
   padding: 45px;
   border-radius: 3px;
 }
@@ -6838,9 +6838,9 @@ Forms
 ==================================================*/
 
 input.pq-bg-transparent {
-  background: rgb(255 255 255 / 14%);
-  border: transparent;
-  color: var(--white-color);
+  background: transparent;
+  border: solid 1px #4c9068;
+  color: #000000 !important;
 }
 
 input.pq-bg-transparent::placeholder {
@@ -7952,4 +7952,54 @@ Custom Css
 .surgery-box img {
   width: 100%;
   border-radius: 10px;
+}
+.pq-footer-top p{
+  color: #000000;
+}
+.pq-footer-social {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.pq-footer-social::before,
+.pq-footer-social::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%; /* Adjust the width of the lines */
+  height: 1px;
+  background-color: #ccc; /* Line color */
+}
+
+.pq-footer-social::before {
+  left: 0;
+}
+
+.pq-footer-social::after {
+  right: 0;
+}
+
+.pq-footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.pq-footer-social ul li {
+  display: inline-block;
+}
+
+.pq-footer-social ul li a {
+  color: #000; /* Icon color */
+  font-size: 18px; /* Icon size */
+  transition: color 0.3s ease;
+}
+
+.pq-footer-social ul li a:hover {
+  color: #007bff; /* Icon hover color */
 }
