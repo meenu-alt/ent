@@ -3059,7 +3059,7 @@ Section Title
   position: relative;
   text-transform: uppercase;
   color: var(--primary-color);
-  /* background: #d3e9fb; */
+  background: #d3e9fb;
   padding: 4px 8px;
   margin: 0 0 10px;
   display: inline-block;
@@ -3098,7 +3098,7 @@ Section Title
   position: relative;
   text-transform: uppercase;
   color: var(--primary-color);
-  /* background: #d3e9fb; */
+  background: #d3e9fb;
   padding: 4px 8px;
   margin: 0 0 10px;
   display: inline-block;
@@ -7955,51 +7955,4 @@ Custom Css
 }
 .pq-footer-top p{
   color: #000000;
-}
-.pq-footer-social {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0; /* Add padding for spacing */
-}
-
-.pq-footer-social::before,
-.pq-footer-social::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 40%; /* Adjust the width of the lines */
-  height: 1px;
-  background-color: #ccc; /* Line color */
-}
-
-.pq-footer-social::before {
-  left: 0;
-}
-
-.pq-footer-social::after {
-  right: 0;
-}
-
-.pq-footer-social ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 15px; /* Space between icons */
-}
-
-.pq-footer-social ul li {
-  display: inline-block;
-}
-
-.pq-footer-social ul li a {
-  color: #000; /* Icon color */
-  font-size: 18px; /* Icon size */
-  transition: color 0.3s ease;
-}
-
-.pq-footer-social ul li a:hover {
-  color: #007bff; /* Icon hover color */
 }
