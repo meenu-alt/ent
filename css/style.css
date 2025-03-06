@@ -7967,3 +7967,7 @@ i.fas.fa-quote-left {
   z-index: 1;
   opacity: 0.1;
 }
+
+.pq-menu-search-block {
+  display: none !important; 
+}
